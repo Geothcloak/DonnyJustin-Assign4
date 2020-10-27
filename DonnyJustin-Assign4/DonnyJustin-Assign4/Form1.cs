@@ -18,14 +18,14 @@ namespace DonnyJustin_Assign4
         int y = -1;
         bool moving = false;
         Pen pen;
+        float penSize;
+
 
         public Form1()
         {
             InitializeComponent();
             g = Canvas.CreateGraphics();
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            pen = new Pen(Color.Black, 5);
-            pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
         }
 
         private void Canvas_Click(object sender, EventArgs e)
@@ -44,8 +44,16 @@ namespace DonnyJustin_Assign4
 
         private void Canvas_MouseMove(object sender, MouseEventArgs e)
         {
+            if (radioButton1.Checked)
+                penSize = trackBar1.Value - 4;
+            else if (radioButton2.Checked)
+                penSize = trackBar1.Value;
+                
+
             if (moving && x != -1 && y != -1)
             {
+                pen = new Pen(Color.Black, penSize);
+                pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
                 g.DrawLine(pen, new Point(x, y), e.Location);
                 x = e.X;
                 y = e.Y;
