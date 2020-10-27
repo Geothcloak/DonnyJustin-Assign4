@@ -28,34 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_Black = new System.Windows.Forms.TextBox();
-            this.textBox_Gray = new System.Windows.Forms.TextBox();
-            this.textBox_Maroon = new System.Windows.Forms.TextBox();
-            this.textBox_Olive = new System.Windows.Forms.TextBox();
-            this.textBox_Green = new System.Windows.Forms.TextBox();
-            this.textBox_Teal = new System.Windows.Forms.TextBox();
-            this.textBox_Navy = new System.Windows.Forms.TextBox();
-            this.textBox_Purple = new System.Windows.Forms.TextBox();
-            this.textBox_DarkKhaki = new System.Windows.Forms.TextBox();
-            this.textBox_DarkSlateGray = new System.Windows.Forms.TextBox();
-            this.textBox_DeepSkyBlue = new System.Windows.Forms.TextBox();
-            this.textBox_SteelBlue = new System.Windows.Forms.TextBox();
-            this.textBox_BlueViolet = new System.Windows.Forms.TextBox();
-            this.textBox_Sienna = new System.Windows.Forms.TextBox();
-            this.textBox_SandyBrown = new System.Windows.Forms.TextBox();
-            this.textBox_DeepPink = new System.Windows.Forms.TextBox();
-            this.textBox_MediumSlateBlue = new System.Windows.Forms.TextBox();
-            this.textBox_PowderBlue = new System.Windows.Forms.TextBox();
-            this.textBox_SpringGreen = new System.Windows.Forms.TextBox();
-            this.textBox_LemonChiffon = new System.Windows.Forms.TextBox();
-            this.textBox_Fuchsia = new System.Windows.Forms.TextBox();
-            this.textBox_Blue = new System.Windows.Forms.TextBox();
-            this.textBox_Aqua = new System.Windows.Forms.TextBox();
-            this.textBox_Lime = new System.Windows.Forms.TextBox();
-            this.textBox_Yellow = new System.Windows.Forms.TextBox();
-            this.textBox_Red = new System.Windows.Forms.TextBox();
-            this.textBox_Silver = new System.Windows.Forms.TextBox();
-            this.textBox_White = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,232 +40,66 @@
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Canvas = new System.Windows.Forms.PictureBox();
+            this.pictureBox_black = new System.Windows.Forms.PictureBox();
+            this.pictureBox_gray = new System.Windows.Forms.PictureBox();
+            this.pictureBox_sienna = new System.Windows.Forms.PictureBox();
+            this.pictureBox_sandyBrown = new System.Windows.Forms.PictureBox();
+            this.pictureBox_blueViolet = new System.Windows.Forms.PictureBox();
+            this.pictureBox_deepPink = new System.Windows.Forms.PictureBox();
+            this.pictureBox_steelBlue = new System.Windows.Forms.PictureBox();
+            this.pictureBox_mediumSlateBlue = new System.Windows.Forms.PictureBox();
+            this.pictureBox_deepSkyBlue = new System.Windows.Forms.PictureBox();
+            this.pictureBox_powderBlue = new System.Windows.Forms.PictureBox();
+            this.pictureBox_darkSlateGray = new System.Windows.Forms.PictureBox();
+            this.pictureBox_springGreen = new System.Windows.Forms.PictureBox();
+            this.pictureBox_darkKhaki = new System.Windows.Forms.PictureBox();
+            this.pictureBox_lemmonChiffon = new System.Windows.Forms.PictureBox();
+            this.pictureBox_purple = new System.Windows.Forms.PictureBox();
+            this.pictureBox_fuchsia = new System.Windows.Forms.PictureBox();
+            this.pictureBox_navy = new System.Windows.Forms.PictureBox();
+            this.pictureBox_blue = new System.Windows.Forms.PictureBox();
+            this.pictureBox_teal = new System.Windows.Forms.PictureBox();
+            this.pictureBox_aqua = new System.Windows.Forms.PictureBox();
+            this.pictureBox_green = new System.Windows.Forms.PictureBox();
+            this.pictureBox_lime = new System.Windows.Forms.PictureBox();
+            this.pictureBox_olive = new System.Windows.Forms.PictureBox();
+            this.pictureBox_yellow = new System.Windows.Forms.PictureBox();
+            this.pictureBox_maroon = new System.Windows.Forms.PictureBox();
+            this.pictureBox_red = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_white = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Canvas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_black)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_gray)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sienna)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sandyBrown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blueViolet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_deepPink)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_steelBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mediumSlateBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_deepSkyBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_powderBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_darkSlateGray)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_springGreen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_darkKhaki)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lemmonChiffon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_purple)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_fuchsia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_navy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_teal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_aqua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_green)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_olive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_yellow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_maroon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_red)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_white)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox_Black
-            // 
-            this.textBox_Black.BackColor = System.Drawing.Color.Black;
-            this.textBox_Black.Location = new System.Drawing.Point(60, 434);
-            this.textBox_Black.Name = "textBox_Black";
-            this.textBox_Black.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Black.TabIndex = 0;
-            // 
-            // textBox_Gray
-            // 
-            this.textBox_Gray.BackColor = System.Drawing.Color.Gray;
-            this.textBox_Gray.Location = new System.Drawing.Point(83, 434);
-            this.textBox_Gray.Name = "textBox_Gray";
-            this.textBox_Gray.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Gray.TabIndex = 1;
-            // 
-            // textBox_Maroon
-            // 
-            this.textBox_Maroon.BackColor = System.Drawing.Color.Maroon;
-            this.textBox_Maroon.Location = new System.Drawing.Point(106, 434);
-            this.textBox_Maroon.Name = "textBox_Maroon";
-            this.textBox_Maroon.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Maroon.TabIndex = 2;
-            // 
-            // textBox_Olive
-            // 
-            this.textBox_Olive.BackColor = System.Drawing.Color.Olive;
-            this.textBox_Olive.Location = new System.Drawing.Point(129, 434);
-            this.textBox_Olive.Name = "textBox_Olive";
-            this.textBox_Olive.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Olive.TabIndex = 3;
-            // 
-            // textBox_Green
-            // 
-            this.textBox_Green.BackColor = System.Drawing.Color.Green;
-            this.textBox_Green.Location = new System.Drawing.Point(152, 434);
-            this.textBox_Green.Name = "textBox_Green";
-            this.textBox_Green.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Green.TabIndex = 4;
-            // 
-            // textBox_Teal
-            // 
-            this.textBox_Teal.BackColor = System.Drawing.Color.Teal;
-            this.textBox_Teal.Location = new System.Drawing.Point(175, 434);
-            this.textBox_Teal.Name = "textBox_Teal";
-            this.textBox_Teal.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Teal.TabIndex = 5;
-            // 
-            // textBox_Navy
-            // 
-            this.textBox_Navy.BackColor = System.Drawing.Color.Navy;
-            this.textBox_Navy.Location = new System.Drawing.Point(198, 434);
-            this.textBox_Navy.Name = "textBox_Navy";
-            this.textBox_Navy.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Navy.TabIndex = 6;
-            // 
-            // textBox_Purple
-            // 
-            this.textBox_Purple.BackColor = System.Drawing.Color.Purple;
-            this.textBox_Purple.Location = new System.Drawing.Point(221, 434);
-            this.textBox_Purple.Name = "textBox_Purple";
-            this.textBox_Purple.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Purple.TabIndex = 7;
-            // 
-            // textBox_DarkKhaki
-            // 
-            this.textBox_DarkKhaki.BackColor = System.Drawing.Color.DarkKhaki;
-            this.textBox_DarkKhaki.Location = new System.Drawing.Point(244, 434);
-            this.textBox_DarkKhaki.Name = "textBox_DarkKhaki";
-            this.textBox_DarkKhaki.Size = new System.Drawing.Size(17, 20);
-            this.textBox_DarkKhaki.TabIndex = 8;
-            // 
-            // textBox_DarkSlateGray
-            // 
-            this.textBox_DarkSlateGray.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.textBox_DarkSlateGray.Location = new System.Drawing.Point(267, 434);
-            this.textBox_DarkSlateGray.Name = "textBox_DarkSlateGray";
-            this.textBox_DarkSlateGray.Size = new System.Drawing.Size(17, 20);
-            this.textBox_DarkSlateGray.TabIndex = 9;
-            // 
-            // textBox_DeepSkyBlue
-            // 
-            this.textBox_DeepSkyBlue.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.textBox_DeepSkyBlue.Location = new System.Drawing.Point(290, 434);
-            this.textBox_DeepSkyBlue.Name = "textBox_DeepSkyBlue";
-            this.textBox_DeepSkyBlue.Size = new System.Drawing.Size(17, 20);
-            this.textBox_DeepSkyBlue.TabIndex = 10;
-            // 
-            // textBox_SteelBlue
-            // 
-            this.textBox_SteelBlue.BackColor = System.Drawing.Color.SteelBlue;
-            this.textBox_SteelBlue.Location = new System.Drawing.Point(313, 434);
-            this.textBox_SteelBlue.Name = "textBox_SteelBlue";
-            this.textBox_SteelBlue.Size = new System.Drawing.Size(17, 20);
-            this.textBox_SteelBlue.TabIndex = 11;
-            // 
-            // textBox_BlueViolet
-            // 
-            this.textBox_BlueViolet.BackColor = System.Drawing.Color.BlueViolet;
-            this.textBox_BlueViolet.Location = new System.Drawing.Point(336, 434);
-            this.textBox_BlueViolet.Name = "textBox_BlueViolet";
-            this.textBox_BlueViolet.Size = new System.Drawing.Size(17, 20);
-            this.textBox_BlueViolet.TabIndex = 12;
-            // 
-            // textBox_Sienna
-            // 
-            this.textBox_Sienna.BackColor = System.Drawing.Color.Sienna;
-            this.textBox_Sienna.Location = new System.Drawing.Point(359, 434);
-            this.textBox_Sienna.Name = "textBox_Sienna";
-            this.textBox_Sienna.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Sienna.TabIndex = 13;
-            // 
-            // textBox_SandyBrown
-            // 
-            this.textBox_SandyBrown.BackColor = System.Drawing.Color.SandyBrown;
-            this.textBox_SandyBrown.Location = new System.Drawing.Point(359, 460);
-            this.textBox_SandyBrown.Name = "textBox_SandyBrown";
-            this.textBox_SandyBrown.Size = new System.Drawing.Size(17, 20);
-            this.textBox_SandyBrown.TabIndex = 27;
-            // 
-            // textBox_DeepPink
-            // 
-            this.textBox_DeepPink.BackColor = System.Drawing.Color.DeepPink;
-            this.textBox_DeepPink.Location = new System.Drawing.Point(336, 460);
-            this.textBox_DeepPink.Name = "textBox_DeepPink";
-            this.textBox_DeepPink.Size = new System.Drawing.Size(17, 20);
-            this.textBox_DeepPink.TabIndex = 26;
-            // 
-            // textBox_MediumSlateBlue
-            // 
-            this.textBox_MediumSlateBlue.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.textBox_MediumSlateBlue.Location = new System.Drawing.Point(313, 460);
-            this.textBox_MediumSlateBlue.Name = "textBox_MediumSlateBlue";
-            this.textBox_MediumSlateBlue.Size = new System.Drawing.Size(17, 20);
-            this.textBox_MediumSlateBlue.TabIndex = 25;
-            // 
-            // textBox_PowderBlue
-            // 
-            this.textBox_PowderBlue.BackColor = System.Drawing.Color.PowderBlue;
-            this.textBox_PowderBlue.Location = new System.Drawing.Point(290, 460);
-            this.textBox_PowderBlue.Name = "textBox_PowderBlue";
-            this.textBox_PowderBlue.Size = new System.Drawing.Size(17, 20);
-            this.textBox_PowderBlue.TabIndex = 24;
-            // 
-            // textBox_SpringGreen
-            // 
-            this.textBox_SpringGreen.BackColor = System.Drawing.Color.SpringGreen;
-            this.textBox_SpringGreen.Location = new System.Drawing.Point(267, 460);
-            this.textBox_SpringGreen.Name = "textBox_SpringGreen";
-            this.textBox_SpringGreen.Size = new System.Drawing.Size(17, 20);
-            this.textBox_SpringGreen.TabIndex = 23;
-            // 
-            // textBox_LemonChiffon
-            // 
-            this.textBox_LemonChiffon.BackColor = System.Drawing.Color.LemonChiffon;
-            this.textBox_LemonChiffon.Location = new System.Drawing.Point(244, 460);
-            this.textBox_LemonChiffon.Name = "textBox_LemonChiffon";
-            this.textBox_LemonChiffon.Size = new System.Drawing.Size(17, 20);
-            this.textBox_LemonChiffon.TabIndex = 22;
-            // 
-            // textBox_Fuchsia
-            // 
-            this.textBox_Fuchsia.BackColor = System.Drawing.Color.Fuchsia;
-            this.textBox_Fuchsia.Location = new System.Drawing.Point(221, 460);
-            this.textBox_Fuchsia.Name = "textBox_Fuchsia";
-            this.textBox_Fuchsia.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Fuchsia.TabIndex = 21;
-            // 
-            // textBox_Blue
-            // 
-            this.textBox_Blue.BackColor = System.Drawing.Color.Blue;
-            this.textBox_Blue.Location = new System.Drawing.Point(198, 460);
-            this.textBox_Blue.Name = "textBox_Blue";
-            this.textBox_Blue.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Blue.TabIndex = 20;
-            // 
-            // textBox_Aqua
-            // 
-            this.textBox_Aqua.BackColor = System.Drawing.Color.Aqua;
-            this.textBox_Aqua.Location = new System.Drawing.Point(175, 460);
-            this.textBox_Aqua.Name = "textBox_Aqua";
-            this.textBox_Aqua.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Aqua.TabIndex = 19;
-            // 
-            // textBox_Lime
-            // 
-            this.textBox_Lime.BackColor = System.Drawing.Color.Lime;
-            this.textBox_Lime.Location = new System.Drawing.Point(152, 460);
-            this.textBox_Lime.Name = "textBox_Lime";
-            this.textBox_Lime.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Lime.TabIndex = 18;
-            // 
-            // textBox_Yellow
-            // 
-            this.textBox_Yellow.BackColor = System.Drawing.Color.Yellow;
-            this.textBox_Yellow.Location = new System.Drawing.Point(129, 460);
-            this.textBox_Yellow.Name = "textBox_Yellow";
-            this.textBox_Yellow.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Yellow.TabIndex = 17;
-            // 
-            // textBox_Red
-            // 
-            this.textBox_Red.BackColor = System.Drawing.Color.Red;
-            this.textBox_Red.Location = new System.Drawing.Point(106, 460);
-            this.textBox_Red.Name = "textBox_Red";
-            this.textBox_Red.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Red.TabIndex = 16;
-            // 
-            // textBox_Silver
-            // 
-            this.textBox_Silver.BackColor = System.Drawing.Color.Silver;
-            this.textBox_Silver.Location = new System.Drawing.Point(83, 460);
-            this.textBox_Silver.Name = "textBox_Silver";
-            this.textBox_Silver.Size = new System.Drawing.Size(17, 20);
-            this.textBox_Silver.TabIndex = 15;
-            // 
-            // textBox_White
-            // 
-            this.textBox_White.BackColor = System.Drawing.Color.White;
-            this.textBox_White.Location = new System.Drawing.Point(60, 460);
-            this.textBox_White.Name = "textBox_White";
-            this.textBox_White.Size = new System.Drawing.Size(17, 20);
-            this.textBox_White.TabIndex = 14;
             // 
             // menuStrip1
             // 
@@ -320,25 +126,25 @@
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.newToolStripMenuItem.Text = "New";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.saveAsToolStripMenuItem.Text = "Save As";
             // 
             // recentlyOpenedToolStripMenuItem
@@ -350,113 +156,406 @@
             this.toolStripMenuItem5,
             this.toolStripMenuItem6});
             this.recentlyOpenedToolStripMenuItem.Name = "recentlyOpenedToolStripMenuItem";
-            this.recentlyOpenedToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recentlyOpenedToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.recentlyOpenedToolStripMenuItem.Text = "Recently Opened";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem2.Text = "1";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem3.Text = "2";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem4.Text = "3";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem5.Text = "4";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem6.Text = "5";
+            // 
+            // Canvas
+            // 
+            this.Canvas.Location = new System.Drawing.Point(12, 27);
+            this.Canvas.Name = "Canvas";
+            this.Canvas.Size = new System.Drawing.Size(902, 401);
+            this.Canvas.TabIndex = 29;
+            this.Canvas.TabStop = false;
+            this.Canvas.Click += new System.EventHandler(this.Canvas_Click);
+            this.Canvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Canvas_MouseDown);
+            this.Canvas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Canvas_MouseMove);
+            this.Canvas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Canvas_MouseUp);
+            // 
+            // pictureBox_black
+            // 
+            this.pictureBox_black.BackColor = System.Drawing.Color.Black;
+            this.pictureBox_black.Location = new System.Drawing.Point(22, 434);
+            this.pictureBox_black.Name = "pictureBox_black";
+            this.pictureBox_black.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_black.TabIndex = 30;
+            this.pictureBox_black.TabStop = false;
+            this.pictureBox_black.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_gray
+            // 
+            this.pictureBox_gray.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox_gray.Location = new System.Drawing.Point(46, 434);
+            this.pictureBox_gray.Name = "pictureBox_gray";
+            this.pictureBox_gray.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_gray.TabIndex = 31;
+            this.pictureBox_gray.TabStop = false;
+            this.pictureBox_gray.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_sienna
+            // 
+            this.pictureBox_sienna.BackColor = System.Drawing.Color.Sienna;
+            this.pictureBox_sienna.Location = new System.Drawing.Point(334, 434);
+            this.pictureBox_sienna.Name = "pictureBox_sienna";
+            this.pictureBox_sienna.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_sienna.TabIndex = 32;
+            this.pictureBox_sienna.TabStop = false;
+            this.pictureBox_sienna.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_sandyBrown
+            // 
+            this.pictureBox_sandyBrown.BackColor = System.Drawing.Color.SandyBrown;
+            this.pictureBox_sandyBrown.Location = new System.Drawing.Point(334, 459);
+            this.pictureBox_sandyBrown.Name = "pictureBox_sandyBrown";
+            this.pictureBox_sandyBrown.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_sandyBrown.TabIndex = 33;
+            this.pictureBox_sandyBrown.TabStop = false;
+            this.pictureBox_sandyBrown.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_blueViolet
+            // 
+            this.pictureBox_blueViolet.BackColor = System.Drawing.Color.BlueViolet;
+            this.pictureBox_blueViolet.Location = new System.Drawing.Point(310, 434);
+            this.pictureBox_blueViolet.Name = "pictureBox_blueViolet";
+            this.pictureBox_blueViolet.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_blueViolet.TabIndex = 34;
+            this.pictureBox_blueViolet.TabStop = false;
+            this.pictureBox_blueViolet.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_deepPink
+            // 
+            this.pictureBox_deepPink.BackColor = System.Drawing.Color.DeepPink;
+            this.pictureBox_deepPink.Location = new System.Drawing.Point(310, 459);
+            this.pictureBox_deepPink.Name = "pictureBox_deepPink";
+            this.pictureBox_deepPink.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_deepPink.TabIndex = 35;
+            this.pictureBox_deepPink.TabStop = false;
+            this.pictureBox_deepPink.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_steelBlue
+            // 
+            this.pictureBox_steelBlue.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox_steelBlue.Location = new System.Drawing.Point(286, 434);
+            this.pictureBox_steelBlue.Name = "pictureBox_steelBlue";
+            this.pictureBox_steelBlue.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_steelBlue.TabIndex = 36;
+            this.pictureBox_steelBlue.TabStop = false;
+            this.pictureBox_steelBlue.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_mediumSlateBlue
+            // 
+            this.pictureBox_mediumSlateBlue.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.pictureBox_mediumSlateBlue.Location = new System.Drawing.Point(286, 459);
+            this.pictureBox_mediumSlateBlue.Name = "pictureBox_mediumSlateBlue";
+            this.pictureBox_mediumSlateBlue.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_mediumSlateBlue.TabIndex = 37;
+            this.pictureBox_mediumSlateBlue.TabStop = false;
+            this.pictureBox_mediumSlateBlue.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_deepSkyBlue
+            // 
+            this.pictureBox_deepSkyBlue.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pictureBox_deepSkyBlue.Location = new System.Drawing.Point(262, 434);
+            this.pictureBox_deepSkyBlue.Name = "pictureBox_deepSkyBlue";
+            this.pictureBox_deepSkyBlue.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_deepSkyBlue.TabIndex = 38;
+            this.pictureBox_deepSkyBlue.TabStop = false;
+            this.pictureBox_deepSkyBlue.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_powderBlue
+            // 
+            this.pictureBox_powderBlue.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox_powderBlue.Location = new System.Drawing.Point(262, 459);
+            this.pictureBox_powderBlue.Name = "pictureBox_powderBlue";
+            this.pictureBox_powderBlue.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_powderBlue.TabIndex = 39;
+            this.pictureBox_powderBlue.TabStop = false;
+            this.pictureBox_powderBlue.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_darkSlateGray
+            // 
+            this.pictureBox_darkSlateGray.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pictureBox_darkSlateGray.Location = new System.Drawing.Point(238, 434);
+            this.pictureBox_darkSlateGray.Name = "pictureBox_darkSlateGray";
+            this.pictureBox_darkSlateGray.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_darkSlateGray.TabIndex = 40;
+            this.pictureBox_darkSlateGray.TabStop = false;
+            this.pictureBox_darkSlateGray.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_springGreen
+            // 
+            this.pictureBox_springGreen.BackColor = System.Drawing.Color.SpringGreen;
+            this.pictureBox_springGreen.Location = new System.Drawing.Point(238, 459);
+            this.pictureBox_springGreen.Name = "pictureBox_springGreen";
+            this.pictureBox_springGreen.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_springGreen.TabIndex = 41;
+            this.pictureBox_springGreen.TabStop = false;
+            this.pictureBox_springGreen.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_darkKhaki
+            // 
+            this.pictureBox_darkKhaki.BackColor = System.Drawing.Color.DarkKhaki;
+            this.pictureBox_darkKhaki.Location = new System.Drawing.Point(214, 434);
+            this.pictureBox_darkKhaki.Name = "pictureBox_darkKhaki";
+            this.pictureBox_darkKhaki.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_darkKhaki.TabIndex = 42;
+            this.pictureBox_darkKhaki.TabStop = false;
+            this.pictureBox_darkKhaki.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_lemmonChiffon
+            // 
+            this.pictureBox_lemmonChiffon.BackColor = System.Drawing.Color.LemonChiffon;
+            this.pictureBox_lemmonChiffon.Location = new System.Drawing.Point(214, 459);
+            this.pictureBox_lemmonChiffon.Name = "pictureBox_lemmonChiffon";
+            this.pictureBox_lemmonChiffon.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_lemmonChiffon.TabIndex = 43;
+            this.pictureBox_lemmonChiffon.TabStop = false;
+            this.pictureBox_lemmonChiffon.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_purple
+            // 
+            this.pictureBox_purple.BackColor = System.Drawing.Color.Purple;
+            this.pictureBox_purple.Location = new System.Drawing.Point(190, 434);
+            this.pictureBox_purple.Name = "pictureBox_purple";
+            this.pictureBox_purple.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_purple.TabIndex = 44;
+            this.pictureBox_purple.TabStop = false;
+            this.pictureBox_purple.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_fuchsia
+            // 
+            this.pictureBox_fuchsia.BackColor = System.Drawing.Color.Fuchsia;
+            this.pictureBox_fuchsia.Location = new System.Drawing.Point(190, 459);
+            this.pictureBox_fuchsia.Name = "pictureBox_fuchsia";
+            this.pictureBox_fuchsia.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_fuchsia.TabIndex = 45;
+            this.pictureBox_fuchsia.TabStop = false;
+            this.pictureBox_fuchsia.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_navy
+            // 
+            this.pictureBox_navy.BackColor = System.Drawing.Color.Navy;
+            this.pictureBox_navy.Location = new System.Drawing.Point(166, 434);
+            this.pictureBox_navy.Name = "pictureBox_navy";
+            this.pictureBox_navy.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_navy.TabIndex = 46;
+            this.pictureBox_navy.TabStop = false;
+            this.pictureBox_navy.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_blue
+            // 
+            this.pictureBox_blue.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox_blue.Location = new System.Drawing.Point(166, 459);
+            this.pictureBox_blue.Name = "pictureBox_blue";
+            this.pictureBox_blue.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_blue.TabIndex = 47;
+            this.pictureBox_blue.TabStop = false;
+            this.pictureBox_blue.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_teal
+            // 
+            this.pictureBox_teal.BackColor = System.Drawing.Color.Teal;
+            this.pictureBox_teal.Location = new System.Drawing.Point(142, 434);
+            this.pictureBox_teal.Name = "pictureBox_teal";
+            this.pictureBox_teal.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_teal.TabIndex = 48;
+            this.pictureBox_teal.TabStop = false;
+            this.pictureBox_teal.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_aqua
+            // 
+            this.pictureBox_aqua.BackColor = System.Drawing.Color.Aqua;
+            this.pictureBox_aqua.Location = new System.Drawing.Point(142, 459);
+            this.pictureBox_aqua.Name = "pictureBox_aqua";
+            this.pictureBox_aqua.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_aqua.TabIndex = 49;
+            this.pictureBox_aqua.TabStop = false;
+            this.pictureBox_aqua.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_green
+            // 
+            this.pictureBox_green.BackColor = System.Drawing.Color.Green;
+            this.pictureBox_green.Location = new System.Drawing.Point(118, 434);
+            this.pictureBox_green.Name = "pictureBox_green";
+            this.pictureBox_green.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_green.TabIndex = 50;
+            this.pictureBox_green.TabStop = false;
+            this.pictureBox_green.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_lime
+            // 
+            this.pictureBox_lime.BackColor = System.Drawing.Color.Lime;
+            this.pictureBox_lime.Location = new System.Drawing.Point(118, 459);
+            this.pictureBox_lime.Name = "pictureBox_lime";
+            this.pictureBox_lime.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_lime.TabIndex = 51;
+            this.pictureBox_lime.TabStop = false;
+            this.pictureBox_lime.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_olive
+            // 
+            this.pictureBox_olive.BackColor = System.Drawing.Color.Olive;
+            this.pictureBox_olive.Location = new System.Drawing.Point(94, 434);
+            this.pictureBox_olive.Name = "pictureBox_olive";
+            this.pictureBox_olive.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_olive.TabIndex = 52;
+            this.pictureBox_olive.TabStop = false;
+            this.pictureBox_olive.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_yellow
+            // 
+            this.pictureBox_yellow.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox_yellow.Location = new System.Drawing.Point(94, 459);
+            this.pictureBox_yellow.Name = "pictureBox_yellow";
+            this.pictureBox_yellow.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_yellow.TabIndex = 53;
+            this.pictureBox_yellow.TabStop = false;
+            this.pictureBox_yellow.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_maroon
+            // 
+            this.pictureBox_maroon.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox_maroon.Location = new System.Drawing.Point(70, 434);
+            this.pictureBox_maroon.Name = "pictureBox_maroon";
+            this.pictureBox_maroon.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_maroon.TabIndex = 54;
+            this.pictureBox_maroon.TabStop = false;
+            this.pictureBox_maroon.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_red
+            // 
+            this.pictureBox_red.BackColor = System.Drawing.Color.Red;
+            this.pictureBox_red.Location = new System.Drawing.Point(70, 459);
+            this.pictureBox_red.Name = "pictureBox_red";
+            this.pictureBox_red.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_red.TabIndex = 55;
+            this.pictureBox_red.TabStop = false;
+            this.pictureBox_red.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox26.Location = new System.Drawing.Point(46, 459);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox26.TabIndex = 56;
+            this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox_Click);
+            // 
+            // pictureBox_white
+            // 
+            this.pictureBox_white.BackColor = System.Drawing.Color.White;
+            this.pictureBox_white.Location = new System.Drawing.Point(22, 459);
+            this.pictureBox_white.Name = "pictureBox_white";
+            this.pictureBox_white.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox_white.TabIndex = 57;
+            this.pictureBox_white.TabStop = false;
+            this.pictureBox_white.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 492);
-            this.Controls.Add(this.textBox_SandyBrown);
-            this.Controls.Add(this.textBox_DeepPink);
-            this.Controls.Add(this.textBox_MediumSlateBlue);
-            this.Controls.Add(this.textBox_PowderBlue);
-            this.Controls.Add(this.textBox_SpringGreen);
-            this.Controls.Add(this.textBox_LemonChiffon);
-            this.Controls.Add(this.textBox_Fuchsia);
-            this.Controls.Add(this.textBox_Blue);
-            this.Controls.Add(this.textBox_Aqua);
-            this.Controls.Add(this.textBox_Lime);
-            this.Controls.Add(this.textBox_Yellow);
-            this.Controls.Add(this.textBox_Red);
-            this.Controls.Add(this.textBox_Silver);
-            this.Controls.Add(this.textBox_White);
-            this.Controls.Add(this.textBox_Sienna);
-            this.Controls.Add(this.textBox_BlueViolet);
-            this.Controls.Add(this.textBox_SteelBlue);
-            this.Controls.Add(this.textBox_DeepSkyBlue);
-            this.Controls.Add(this.textBox_DarkSlateGray);
-            this.Controls.Add(this.textBox_DarkKhaki);
-            this.Controls.Add(this.textBox_Purple);
-            this.Controls.Add(this.textBox_Navy);
-            this.Controls.Add(this.textBox_Teal);
-            this.Controls.Add(this.textBox_Green);
-            this.Controls.Add(this.textBox_Olive);
-            this.Controls.Add(this.textBox_Maroon);
-            this.Controls.Add(this.textBox_Gray);
-            this.Controls.Add(this.textBox_Black);
+            this.Controls.Add(this.pictureBox_white);
+            this.Controls.Add(this.pictureBox26);
+            this.Controls.Add(this.pictureBox_red);
+            this.Controls.Add(this.pictureBox_maroon);
+            this.Controls.Add(this.pictureBox_yellow);
+            this.Controls.Add(this.pictureBox_olive);
+            this.Controls.Add(this.pictureBox_lime);
+            this.Controls.Add(this.pictureBox_green);
+            this.Controls.Add(this.pictureBox_aqua);
+            this.Controls.Add(this.pictureBox_teal);
+            this.Controls.Add(this.pictureBox_blue);
+            this.Controls.Add(this.pictureBox_navy);
+            this.Controls.Add(this.pictureBox_fuchsia);
+            this.Controls.Add(this.pictureBox_purple);
+            this.Controls.Add(this.pictureBox_lemmonChiffon);
+            this.Controls.Add(this.pictureBox_darkKhaki);
+            this.Controls.Add(this.pictureBox_springGreen);
+            this.Controls.Add(this.pictureBox_darkSlateGray);
+            this.Controls.Add(this.pictureBox_powderBlue);
+            this.Controls.Add(this.pictureBox_deepSkyBlue);
+            this.Controls.Add(this.pictureBox_mediumSlateBlue);
+            this.Controls.Add(this.pictureBox_steelBlue);
+            this.Controls.Add(this.pictureBox_deepPink);
+            this.Controls.Add(this.pictureBox_blueViolet);
+            this.Controls.Add(this.pictureBox_sandyBrown);
+            this.Controls.Add(this.pictureBox_sienna);
+            this.Controls.Add(this.pictureBox_gray);
+            this.Controls.Add(this.pictureBox_black);
+            this.Controls.Add(this.Canvas);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Donny and Justin\'s Ode to Paint";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Canvas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_black)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_gray)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sienna)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sandyBrown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blueViolet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_deepPink)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_steelBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mediumSlateBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_deepSkyBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_powderBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_darkSlateGray)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_springGreen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_darkKhaki)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lemmonChiffon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_purple)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_fuchsia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_navy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_teal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_aqua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_green)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_olive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_yellow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_maroon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_red)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_white)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox_Black;
-        private System.Windows.Forms.TextBox textBox_Gray;
-        private System.Windows.Forms.TextBox textBox_Maroon;
-        private System.Windows.Forms.TextBox textBox_Olive;
-        private System.Windows.Forms.TextBox textBox_Green;
-        private System.Windows.Forms.TextBox textBox_Teal;
-        private System.Windows.Forms.TextBox textBox_Navy;
-        private System.Windows.Forms.TextBox textBox_Purple;
-        private System.Windows.Forms.TextBox textBox_DarkKhaki;
-        private System.Windows.Forms.TextBox textBox_DarkSlateGray;
-        private System.Windows.Forms.TextBox textBox_DeepSkyBlue;
-        private System.Windows.Forms.TextBox textBox_SteelBlue;
-        private System.Windows.Forms.TextBox textBox_BlueViolet;
-        private System.Windows.Forms.TextBox textBox_Sienna;
-        private System.Windows.Forms.TextBox textBox_SandyBrown;
-        private System.Windows.Forms.TextBox textBox_DeepPink;
-        private System.Windows.Forms.TextBox textBox_MediumSlateBlue;
-        private System.Windows.Forms.TextBox textBox_PowderBlue;
-        private System.Windows.Forms.TextBox textBox_SpringGreen;
-        private System.Windows.Forms.TextBox textBox_LemonChiffon;
-        private System.Windows.Forms.TextBox textBox_Fuchsia;
-        private System.Windows.Forms.TextBox textBox_Blue;
-        private System.Windows.Forms.TextBox textBox_Aqua;
-        private System.Windows.Forms.TextBox textBox_Lime;
-        private System.Windows.Forms.TextBox textBox_Yellow;
-        private System.Windows.Forms.TextBox textBox_Red;
-        private System.Windows.Forms.TextBox textBox_Silver;
-        private System.Windows.Forms.TextBox textBox_White;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
@@ -469,6 +568,35 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.PictureBox Canvas;
+        private System.Windows.Forms.PictureBox pictureBox_black;
+        private System.Windows.Forms.PictureBox pictureBox_gray;
+        private System.Windows.Forms.PictureBox pictureBox_sienna;
+        private System.Windows.Forms.PictureBox pictureBox_sandyBrown;
+        private System.Windows.Forms.PictureBox pictureBox_blueViolet;
+        private System.Windows.Forms.PictureBox pictureBox_deepPink;
+        private System.Windows.Forms.PictureBox pictureBox_steelBlue;
+        private System.Windows.Forms.PictureBox pictureBox_mediumSlateBlue;
+        private System.Windows.Forms.PictureBox pictureBox_deepSkyBlue;
+        private System.Windows.Forms.PictureBox pictureBox_powderBlue;
+        private System.Windows.Forms.PictureBox pictureBox_darkSlateGray;
+        private System.Windows.Forms.PictureBox pictureBox_springGreen;
+        private System.Windows.Forms.PictureBox pictureBox_darkKhaki;
+        private System.Windows.Forms.PictureBox pictureBox_lemmonChiffon;
+        private System.Windows.Forms.PictureBox pictureBox_purple;
+        private System.Windows.Forms.PictureBox pictureBox_fuchsia;
+        private System.Windows.Forms.PictureBox pictureBox_navy;
+        private System.Windows.Forms.PictureBox pictureBox_blue;
+        private System.Windows.Forms.PictureBox pictureBox_teal;
+        private System.Windows.Forms.PictureBox pictureBox_aqua;
+        private System.Windows.Forms.PictureBox pictureBox_green;
+        private System.Windows.Forms.PictureBox pictureBox_lime;
+        private System.Windows.Forms.PictureBox pictureBox_olive;
+        private System.Windows.Forms.PictureBox pictureBox_yellow;
+        private System.Windows.Forms.PictureBox pictureBox_maroon;
+        private System.Windows.Forms.PictureBox pictureBox_red;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox_white;
     }
 }
 
