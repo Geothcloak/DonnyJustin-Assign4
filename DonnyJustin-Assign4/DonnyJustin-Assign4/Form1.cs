@@ -26,6 +26,9 @@ namespace DonnyJustin_Assign4
             InitializeComponent();
             g = Canvas.CreateGraphics();
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            penSize = getPenSize();
+            pen = new Pen(Color.Black, penSize);
+            pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
         }
 
         private void Canvas_Click(object sender, EventArgs e)
@@ -40,20 +43,23 @@ namespace DonnyJustin_Assign4
             x = e.X;
             y = e.Y;
             Canvas.Cursor = Cursors.Cross;
+
         }
 
-        private void Canvas_MouseMove(object sender, MouseEventArgs e)
+        public float getPenSize()
         {
             if (radioButton1.Checked)
                 penSize = trackBar1.Value - 4;
             else if (radioButton2.Checked)
                 penSize = trackBar1.Value;
-                
 
+            return penSize;
+        }
+
+        private void Canvas_MouseMove(object sender, MouseEventArgs e)
+        {
             if (moving && x != -1 && y != -1)
             {
-                pen = new Pen(Color.Black, penSize);
-                pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
                 g.DrawLine(pen, new Point(x, y), e.Location);
                 x = e.X;
                 y = e.Y;
@@ -72,6 +78,26 @@ namespace DonnyJustin_Assign4
         {
             PictureBox p = (PictureBox)sender;
             pen.Color = p.BackColor;
+        }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+                penSize = trackBar1.Value - 4;
+            else if (radioButton2.Checked)
+                penSize = trackBar1.Value;
+
+            pen.Width = penSize;
+        }
+
+        private void radioButton2_Click(object sender, EventArgs e)
+        {
+            pen.Width = trackBar1.Value;
+        }
+
+        private void radioButton1_Click(object sender, EventArgs e)
+        {
+            pen.Width = trackBar1.Value - 4;
         }
     }
 }
