@@ -7,3 +7,13 @@ C:\Users\Donny Kapic\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\Do
 C:\Users\Donny Kapic\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.csproj.GenerateResource.Cache
 C:\Users\Donny Kapic\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.exe
 C:\Users\Donny Kapic\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.pdb
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\bin\Debug\DonnyJustin-Assign4.exe.config
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\bin\Debug\DonnyJustin-Assign4.exe
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\bin\Debug\DonnyJustin-Assign4.pdb
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.csprojAssemblyReference.cache
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin_Assign4.Form1.resources
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin_Assign4.Properties.Resources.resources
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.csproj.GenerateResource.cache
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.csproj.CoreCompileInputs.cache
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.exe
+C:\Users\geoth\Documents\GitHub\DonnyJustin-Assign4\DonnyJustin-Assign4\DonnyJustin-Assign4\obj\Debug\DonnyJustin-Assign4.pdb
